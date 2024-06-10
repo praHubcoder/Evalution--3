@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/main.css">
+
+</head>
+<body>
+    <div id="navbaar">
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart</a>
+    </div>
+    <div id="selectTags">
+        <div id="select">
+            <label for="sortData">Sort by price:</label>
+            <select id="sortData">
+                <option value="">sort by price</option>
+                <option value="asc">low to high</option>
+                <option value="desc">high to low</option>
+            </select>
+        </div>
+
+        <div id="filter">
+            <label for="filterData">filter by Category:</label>
+            <select id="filterData">
+                <option value="">Filter by category</option>
+                <option value="Laptop">Laptop</option>
+                <option value="Speakers">Speakers</option>
+                <option value="Mobile">Mobile</option>
+                <option value="Head_Phones">Head_Phones</option>
+                <option value="Smart_TV">Smart_TV</option>
+            </select>
+        </div>
+    </div>
+    <div id="container"></div>
+    <div id="pagination"></div>
+   
+</body>
+</html>
+<script src="scripts/index.js"></script>
